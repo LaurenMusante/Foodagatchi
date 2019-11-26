@@ -25,7 +25,7 @@ function NewFriendForm(props) {
 
 NewFriendForm.propTypes = {
   name: PropTypes.func,
-  type: PropTypes.func
+  type: PropTypes.func 
 }
 
 export default NewFriendForm;

@@ -33,6 +33,7 @@ class App extends React.Component {
     this.handleFeedClick = this.handleFeedClick.bind(this);
     this.handleBedtimeClick = this.handleBedtimeClick.bind(this);
     this.handlePets = this.handlePets.bind(this);
+    this.handleStartGame = this.handleStartGame.bind(this);
   }
 
   componentDidMount(){
@@ -50,7 +51,7 @@ class App extends React.Component {
     var newFriendList = this.state.pets.slice();
 
     newFriendList = [];
-    newFriends.forEach((friend) => {
+    newFriends.forEach((newFriend) => {
         newFriend.emotion = 'happy';
         newFriend.timeBeforeFeed = 45;
         newFriend.timeBeforePets = 55;
@@ -63,7 +64,7 @@ class App extends React.Component {
   updatePetProps(){
     let newPetsList = this.state.pets.slice();
     newPetsList.forEach((pet) => this.managePetProps(pet));
-    this.setState({pets: newPetsList});
+    this.setState({pets: newPetsList}); //setting the state of "pets" to "newPetsList"
   }
   
   managePetProps(pet){
@@ -127,12 +128,12 @@ class App extends React.Component {
           <Foodagatchi
             name={pet.name} 
             emotion={pet.emotion} 
-            onFeedClick={this.handleFeedClick} 
+            onFeedClick={this.handleFeedClick} //a function being passed in as a prop. 
             onBedtimeClick={this.handleBedtimeClick}
             onPets={this.handlePets}
             img={pet.img} 
             id={pet.id}
-            key={pet.id}/>
+            key={pet.id}/> //map function needs an id in the form of a key. 
         )}
       </div>
     );
