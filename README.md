@@ -10,7 +10,7 @@ _In this game, the user chooses how many friends ("Foodagatchis") they'd like to
 
 ## Setup/Installation Requirements
 
-Clone [this repository](https://github.com/LaurenMusante/Foodagatchi) to your desktop. Open the project in VS Code or Atom. In your terminal, within the root directory, run the command "npm install". Once complete, run the command "npm run start" and open the page "http: 
+Clone [this repository](https://github.com/LaurenMusante/Foodagatchi) to your desktop. Open the project in VS Code or Atom. In your terminal, within the root directory, run the command "npm install". Once complete, run the command "npm run start" and open the page "http://localhost:8080" in your browser. 
 
 ## Technologies Used
 
