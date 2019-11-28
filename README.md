@@ -12,12 +12,14 @@ _In this game, the user chooses how many friends ("Foodagatchis") they'd like to
 
 Clone [this repository](https://github.com/LaurenMusante/Foodagatchi) to your desktop. Open the project in VS Code or Atom. In your terminal, within the root directory, run the command "npm install". Once complete, run the command "npm run start" and open the page "http://localhost:8080" in your browser. 
 
+**_Project is still in progress as of 11/27/2019_**
+
 ## Technologies Used
 
-_JavaScript, jQuery, Webpack, CSS, Bootstrap, HTML_
+_JavaScript, React.js, CSS_
 
 ### License
 
 *Open-source*
 
-Copyright (c) 2019 **_Sofia Giordano, Lauren Musante, Christopher Burge, and Jacqueline Remmel_**
+Copyright (c) 2019 **_Lauren Musante, Christine Frank_**
