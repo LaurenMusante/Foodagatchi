@@ -3,7 +3,6 @@ import Foodagatchi from './Foodagatchi';
 import woodplateboard from '../assets/images/woodboardplate.png';
 import Home from './Home';
 
-import Moment from 'moment';
 
 class App extends React.Component {
   constructor(props){

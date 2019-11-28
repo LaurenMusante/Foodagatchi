@@ -20,8 +20,8 @@ function NewFriendForm(props) {
         </select>
       </div>
     </div>
-  )
-}
+  );
+};
 
 NewFriendForm.propTypes = {
   name: PropTypes.func,
