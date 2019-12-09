@@ -39,25 +39,25 @@ function Foodagatchi(props) {
 
   function gotchiBody(bodyType){
     switch (bodyType) {
-    case 'dumpling':
+    case 'Dumpling':
       return {
         type: dumpling,
         style: eyeStyle
       };
 
-    case 'wasabi':
+    case 'Wasabi':
       return {
         type: wasabi,
         style: wasabiEyeStyle
       };
 
-    case 'sushi':
+    case 'Sushi':
       return {
         type: sushi,
         style: sushiEyeStyle
       };
   
-    case 'tamagoyaki':
+    case 'Tamagoyaki':
       return {
         type: tamagoyaki,
         style: tamaEyeStyle

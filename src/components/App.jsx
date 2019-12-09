@@ -51,6 +51,7 @@ class App extends React.Component {
 
     newFriendList = [];
     newFriends.forEach((newFriend) => {
+        console.log(newFriend);
         newFriend.emotion = 'happy';
         newFriend.timeBeforeFeed = 45;
         newFriend.timeBeforePets = 55;
